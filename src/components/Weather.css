@@ -1,0 +1,24 @@
+.weather{
+    width: 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/016/655/395/large_2x/sky-background-nature-sky-blue-background-cloud-light-summer-day-sunny-weather-space-clear-sun-white-high-beautiful-landscape-outdoors-sunlight-cloudy-outdoor-abstract-wallpaper-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainweather{
+    width: 60%;
+    border: 2px solid black;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(14px);
+    margin: auto;
+    padding: 50px ;
+    margin-bottom: 10px;
+}
+.dailyweather{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
